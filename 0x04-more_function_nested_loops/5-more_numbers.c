@@ -1,28 +1,21 @@
 #include "main.h"
 
 /**
- * most_numbers - prints most numbers
+ * more_numbers - prints more numbers
  * Return: void
  */
 void more_numbers(void)
 {
-	char n, c;
-	int i = 0;
+	int i, j;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		for (n = 0; n <= 14; n++)
+		for (j = 0; j <= 14; j++)
 		{
-			c = n;
-			if (n > 9)
-			{
-				putchar('1');
-				c = n % 10;
-			}
-			_putchar('0' + c);
+			if (j < 9)
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
 		}
-
-		_putchar('\n');
-		i++;
+		_putchar('\n')
 	}
 }

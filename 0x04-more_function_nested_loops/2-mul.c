@@ -2,9 +2,9 @@
 
 /**
  * mul - return the product of ist parameters
- * @a: int type number
- * @b: int type number
- * Return: 0
+ * @a: int to mult
+ * @b: int to mult
+ * Return: result of two
  */
 int mul(int a, int b)
 {

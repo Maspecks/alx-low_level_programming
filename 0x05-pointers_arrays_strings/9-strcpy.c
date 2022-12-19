@@ -3,6 +3,7 @@
 
 /**
  * _strcpy - main function to copy
+ * @dest: destination to copy
  * @src: src
  *
  * Return: a character value

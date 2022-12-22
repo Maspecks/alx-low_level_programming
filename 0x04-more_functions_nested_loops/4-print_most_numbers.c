@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints numbers between 0to 9
- * (neither 2 or 4)
- * Return: void
+ * print_most_numbers - function to print the numbers 0 to 9
+ *
+ * Return: nothing
  */
 void print_most_numbers(void)
 {
-	int n = o;
+	int n = 0;
 
 	while (n < 10)
 	{
@@ -15,5 +15,5 @@ void print_most_numbers(void)
 			_putchar(n + '0');
 		n += 1;
 	}
-	_putchar('\n');
+	_putchar('\n')
 }
